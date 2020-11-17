@@ -3,16 +3,16 @@
   "version": "0.3.0",
   "dependencies": {
     "argparse": "^1",
-    "cssesc": "^1",
+    "cssesc": "^3.0.0",
     "he": "^1",
-    "lodash": "^4",
-    "mkdirp": "^0.5.1",
-    "sanitize-filename": "^1.6",
-    "svg2ttf": "^4",
-    "svgicons2svgfont": "^9",
+    "lodash": "^4.17.20",
+    "mkdirp": "^1.0.4",
+    "sanitize-filename": "^1.6.3",
+    "svg2ttf": "^5.0.0",
+    "svgicons2svgfont": "^9.1.1",
     "ttf2eot": "^2",
-    "ttf2woff": "^2",
-    "ttf2woff2": "^2"
+    "ttf2woff": "^2.0.2",
+    "ttf2woff2": "^3.0.0"
   },
   "scripts": {
     "test": "node bin.js test/icons -o test/out -n fontawesome -p fa-"
